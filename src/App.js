@@ -4,9 +4,8 @@ import Footer from './layouts/Footer'
 import Country from './layouts/Country'
 import Header from './layouts/Header'
 import Main from './layouts/Main'
-import countries from './data/data'
 
-function App() {
+function App({countries}) {
   return (
     <Router>
       <div className="App">

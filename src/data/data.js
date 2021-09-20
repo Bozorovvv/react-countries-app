@@ -1,4 +1,4 @@
-﻿import paris from '../img/paris.jpg'
+import paris from '../img/paris.jpg'
 import paris1 from '../img/paris1.jpg'
 import paris2 from '../img/paris2.jpg'
 import paris3 from '../img/paris3.jpg'
@@ -71,26 +71,36 @@ const countries = [
     video: 'https://www.youtube.com/watch?v=7qrdzVSGy0A',
     photos: [
       {
+        id: 1,
         palce: paris1,
         desc: 'Paris encompasses a wide variety of landscapes: the tall, sheer mountains',
       },
       {
+        id: 2,
         place: paris2,
         desc: 'The country is indeed low-lying and remarkably flat, with large expanses of lakes',
       },
       {
+        id: 3,
         place: paris3,
         desc: 'Paris political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 4,
         place: paris4,
         desc: 'Political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 5,
         place: paris5,
         desc: 'It is bordered by six countries other nations: Germany',
       },
-      { place: paris6, desc: 'France is one of Europe’s largest countries.' },
+
+      {
+        id: 6,
+        place: paris6,
+        desc: 'France is one of Europe’s largest countries.',
+      },
     ],
     description:
       'France is one of Europe’s largest countries. It is bordered by six countries other nations: Germany, Belgium and Luxembourg to the northeast, Switzerland and Italy to the southeast and Spain to the southwest. The United Kingdom borders France via the English Channel. The country is considered to be the gateway to Europe as there are several large international airports (two of these can be found in Paris), ferry terminals and the French rail service.',
@@ -104,26 +114,32 @@ const countries = [
     video: 'https://www.youtube.com/watch?v=99Vci0S__LM',
     photos: [
       {
+        id: 1,
         palce: amsterdam1,
         desc: 'Paris encompasses a wide variety of landscapes: the tall, sheer mountains',
       },
       {
+        id: 2,
         place: amsterdam2,
         desc: 'The country is indeed low-lying and remarkably flat, with large expanses of lakes',
       },
       {
+        id: 3,
         place: amsterdam3,
         desc: 'Paris political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 4,
         place: amsterdam4,
         desc: 'Political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 5,
         place: amsterdam5,
         desc: 'It is bordered by six countries other nations: Germany',
       },
       {
+        id: 6,
         place: amsterdam6,
         desc: 'France is one of Europe’s largest countries.',
       },
@@ -140,26 +156,32 @@ const countries = [
     video: 'https://www.youtube.com/watch?v=vQVwkyn3-F8',
     photos: [
       {
+        id: 1,
         palce: tashkent1,
         desc: 'Paris encompasses a wide variety of landscapes: the tall, sheer mountains',
       },
       {
+        id: 2,
         place: tashkent2,
         desc: 'The country is indeed low-lying and remarkably flat, with large expanses of lakes',
       },
       {
+        id: 3,
         place: tashkent3,
         desc: 'Paris political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 4,
         place: tashkent4,
         desc: 'Political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 5,
         place: tashkent5,
         desc: 'It is bordered by six countries other nations: Germany',
       },
       {
+        id: 6,
         place: tashkent6,
         desc: 'France is one of Europe’s largest countries.',
       },
@@ -176,26 +198,35 @@ const countries = [
     video: 'https://www.youtube.com/watch?v=bRWpg7A51pI',
     photos: [
       {
+        id: 1,
         palce: moscow1,
         desc: 'Paris encompasses a wide variety of landscapes: the tall, sheer mountains',
       },
       {
+        id: 2,
         place: moscow2,
         desc: 'The country is indeed low-lying and remarkably flat, with large expanses of lakes',
       },
       {
+        id: 3,
         place: moscow3,
         desc: 'Paris political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 4,
         place: moscow4,
         desc: 'Political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 5,
         place: moscow5,
         desc: 'It is bordered by six countries other nations: Germany',
       },
-      { place: moscow6, desc: 'France is one of Europe’s largest countries.' },
+      {
+        id: 6,
+        place: moscow6,
+        desc: 'France is one of Europe’s largest countries.',
+      },
     ],
     description:
       'The inhabitants of Russia are quite diverse. Most are ethnic Russians, but there also are more than 120 other ethnic groups present, speaking many languages and following disparate religious and cultural traditions. Most of the Russian population is concentrated in the European portion of the country, especially in the fertile region surrounding Moscow, the capital. Moscow and St. Petersburg (formerly Leningrad) are the two most important cultural and financial centres in Russia and are among the most picturesque cities in the world.',
@@ -209,26 +240,35 @@ const countries = [
     video: 'https://www.youtube.com/watch?v=8r4a0YLw5_w',
     photos: [
       {
+        id: 1,
         palce: rome1,
         desc: 'Paris encompasses a wide variety of landscapes: the tall, sheer mountains',
       },
       {
+        id: 2,
         place: rome2,
         desc: 'The country is indeed low-lying and remarkably flat, with large expanses of lakes',
       },
       {
+        id: 3,
         place: rome3,
         desc: 'Paris political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 4,
         place: rome4,
         desc: 'Political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 5,
         place: rome5,
         desc: 'It is bordered by six countries other nations: Germany',
       },
-      { place: rome6, desc: 'France is one of Europe’s largest countries.' },
+      {
+        id: 6,
+        place: rome6,
+        desc: 'France is one of Europe’s largest countries.',
+      },
     ],
     description:
       'Italy’s political geography has been conditioned by this rugged landscape. With few direct roads between them, and with passage from one point to another traditionally difficult, Italy’s towns and cities have a history of self-sufficiency, independence, and mutual mistrust. Visitors today remark on how unlike one town is from the next, on the marked differences in cuisine and dialect',
@@ -242,26 +282,35 @@ const countries = [
     video: 'https://www.youtube.com/watch?v=oODLW3WD1sY',
     photos: [
       {
+        id: 1,
         palce: berlin1,
         desc: 'Paris encompasses a wide variety of landscapes: the tall, sheer mountains',
       },
       {
+        id: 2,
         place: berlin2,
         desc: 'The country is indeed low-lying and remarkably flat, with large expanses of lakes',
       },
       {
+        id: 3,
         place: berlin3,
         desc: 'Paris political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 4,
         place: berlin4,
         desc: 'Political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 5,
         place: berlin5,
         desc: 'It is bordered by six countries other nations: Germany',
       },
-      { place: berlin6, desc: 'France is one of Europe’s largest countries.' },
+      {
+        id: 6,
+        place: berlin6,
+        desc: 'France is one of Europe’s largest countries.',
+      },
     ],
     description:
       'One of Europe’s largest countries, Germany encompasses a wide variety of landscapes: the tall, sheer mountains of the south; the sandy, rolling plains of the north; the forested hills of the urbanized west; and the plains of the agricultural east. At the spiritual heart of the country is the magnificent east-central city of Berlin, which rose phoenixlike from the ashes of World War II and now',
@@ -275,26 +324,35 @@ const countries = [
     video: 'https://www.youtube.com/watch?v=rOKyUMPTT98',
     photos: [
       {
+        id: 1,
         palce: london1,
         desc: 'Paris encompasses a wide variety of landscapes: the tall, sheer mountains',
       },
       {
+        id: 2,
         place: london2,
         desc: 'The country is indeed low-lying and remarkably flat, with large expanses of lakes',
       },
       {
+        id: 3,
         place: london3,
         desc: 'Paris political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 4,
         place: london4,
         desc: 'Political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 5,
         place: london5,
         desc: 'It is bordered by six countries other nations: Germany',
       },
-      { place: london6, desc: 'France is one of Europe’s largest countries.' },
+      {
+        id: 6,
+        place: london6,
+        desc: 'France is one of Europe’s largest countries.',
+      },
     ],
     description:
       'Britain (England, Scotland, and Wales) and even with the entire United Kingdom. Despite the political, economic, and cultural legacy that has secured the perpetuation of its name, England no longer officially exists as a governmental or political unit—unlike Scotland, Wales, and Northern Ireland, which all have varying degrees of self-government in domestic affairs. ',
@@ -308,26 +366,35 @@ const countries = [
     video: 'https://www.youtube.com/watch?v=0dIDdCUHcDs',
     photos: [
       {
+        id: 1,
         palce: madrid1,
         desc: 'Paris encompasses a wide variety of landscapes: the tall, sheer mountains',
       },
       {
+        id: 2,
         place: madrid2,
         desc: 'The country is indeed low-lying and remarkably flat, with large expanses of lakes',
       },
       {
+        id: 3,
         place: madrid3,
         desc: 'Paris political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 4,
         place: madrid4,
         desc: 'Political geography has been conditioned by this rugged landscape.',
       },
       {
+        id: 5,
         place: madrid5,
         desc: 'It is bordered by six countries other nations: Germany',
       },
-      { place: madrid6, desc: 'France is one of Europe’s largest countries.' },
+      {
+        id: 6,
+        place: madrid6,
+        desc: 'France is one of Europe’s largest countries.',
+      },
     ],
     description:
       'Spain is a storied country of stone castles, snowcapped mountains, vast monuments, and sophisticated cities, all of which have made it a favoured travel destination. The country is geographically and culturally diverse. Its heartland is the Meseta, a broad central plateau half a mile above sea level.',

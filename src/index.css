@@ -246,7 +246,7 @@ footer {
 }
 .country-places img {
   position: relative;
-  height: 100%;
+  height: 50vh;
   width: 100%;
 }
 

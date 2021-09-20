@@ -6,7 +6,7 @@ function CountryCards({country}) {
       <h2>The most popular places in {country.name}</h2>
       <div className="country-places">
         {country.photos.map((photo) => (
-          <div className="country-card" key={photo.index}>
+          <div className="country-card" key={photo.id}>
             <img src={photo.place} alt="" />
             <p>{photo.desc}</p>
           </div>
