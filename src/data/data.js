@@ -367,12 +367,12 @@ const countries = [
     photos: [
       {
         id: 1,
-        palce: madrid1,
+        palce: madrid2,
         desc: 'Paris encompasses a wide variety of landscapes: the tall, sheer mountains',
       },
       {
         id: 2,
-        place: madrid2,
+        place: madrid1,
         desc: 'The country is indeed low-lying and remarkably flat, with large expanses of lakes',
       },
       {

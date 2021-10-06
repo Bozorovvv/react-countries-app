@@ -240,20 +240,19 @@ footer {
 }
 .country-places {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
   row-gap: 7rem;
   column-gap: 2rem;
 }
 .country-places img {
   position: relative;
-  height: 50vh;
+  height: 100%;
   width: 100%;
 }
 
 .country-cards {
-  height: auto;
-  width: auto;
-  margin: 10% 5%;
+  height: 100%;
+  width: 100%;
 }
 .country-cards h2 {
   margin: 30px 0;
@@ -261,7 +260,7 @@ footer {
 .country-video {
   height: auto;
   width: auto;
-  margin: 10% 5%;
+  margin: 10% 0;
 }
 .country-video h2 {
   margin: 100px 0px 10px 0px;
@@ -309,4 +308,9 @@ footer {
   .country-places {
     display: block;
   }
+}
+.widgets {
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
 }

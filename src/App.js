@@ -5,7 +5,7 @@ import Country from './layouts/Country'
 import Header from './layouts/Header'
 import Main from './layouts/Main'
 
-function App({countries}) {
+function App({ countries }) {
   return (
     <Router>
       <div className="App">
