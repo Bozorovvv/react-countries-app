@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import countries from '../data/data'
 import Blogs from '../components/Blog'
 import ScrollToTop from '../components/ScrollToTop'
+import Fade from 'react-reveal-animation'
 
 function Main() {
   const [search, setSearch] = useState('')
@@ -18,39 +19,45 @@ function Main() {
   return (
     <>
       <ScrollToTop />
-      <div className="banner">
-        <div className="container">
-          <h3 className="banner-title">
-            "<span>Travel</span> as the greatest science and serious science
-            helps us to rediscover ourselves."
-          </h3>
-          <p>- Albert Camus</p>
-          <form>
-            <input
-              type="text"
-              placeholder="Search..."
-              className="search-input"
-              onChange={(e) => setSearch(e.target.value)}
-            />
-            <button className="search-btn" onClick={() => filteredCountry}>
-              <i className="fas fa-search"></i>
-            </button>
-          </form>
-          <div className="img"></div>
+      <Fade>
+        <div className="banner">
+          <div className="container">
+            <h3 className="banner-title">
+              "<span>Travel</span> as the greatest science and serious science
+              helps us to rediscover ourselves."
+            </h3>
+            <p>- Albert Camus</p>
+            <form>
+              <input
+                type="text"
+                placeholder="Search..."
+                className="search-input"
+                onChange={(e) => setSearch(e.target.value)}
+              />
+              <button className="search-btn" onClick={() => filteredCountry}>
+                <i className="fas fa-search"></i>
+              </button>
+            </form>
+            <div className="img"></div>
+          </div>
         </div>
-      </div>
       <section className="blog">
         <div className="container">
-          <div className="title">
-            <h2>The best countries for travelling</h2>
-          </div>
-          <div className="blog-content">
-            {filteredCountry.map((country) => (
-              <Blogs key={country.id} country={country} />
-            ))}
-          </div>
+          <Fade>
+            <div className="title">
+              <h2>The best countries for travelling</h2>
+            </div>
+            <div className="blog-content">
+              {filteredCountry.map((country) => (
+                <Fade>
+                  <Blogs key={country.id} country={country} />
+                </Fade>
+              ))}
+            </div>
+          </Fade>
         </div>
       </section>
+      </Fade>
     </>
   )
 }
